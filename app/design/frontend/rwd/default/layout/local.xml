@@ -3,6 +3,8 @@
     <default>
         <remove name="paypal.partner.right.logo" />
 		<remove name="product_tag_list" />
+		<action method="addCss"><stylesheet>css/custom.css</stylesheet></action>
+		<action method="unsetChild"><name>right.poll</name></action>
     </default>
 	
 </layout>
